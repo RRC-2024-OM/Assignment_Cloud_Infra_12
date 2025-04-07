@@ -1,22 +1,26 @@
-# ✅ GitHub Actions CI & Peer Review Workflow
+# GitHub Actions CI and Peer Review Workflow
 
-This project demonstrates how to automate code quality checks using **GitHub Actions** and **Super-Linter**, while following a **dev → main** development workflow with **peer code reviews**.
+This project demonstrates how to automate code quality checks using GitHub Actions and Super-Linter, while following a development workflow with peer code reviews.
 
-## 🔧 Features
-- CI setup with Super-Linter (`.github/workflows/lint.yml`)
-- Auto-linting on every push or pull request
-- Branch-based workflow (`dev` for development, `main` for production)
-- Peer collaboration via pull requests and reviews
+## Features
 
-## 👥 Collaboration
-- Invited a classmate as collaborator
-- Created PR from `dev` branch
-- Classmate reviewed and approved changes
-- Merged into `main` with successful Super-Linter run
+- CI setup with Super-Linter (.github/workflows/lint.yml)
+- Automatic linting on every push or pull request
+- Development takes place in the dev branch
+- Code is reviewed and approved before merging into main
 
-## ✅ CI Status
-> Super-Linter runs on every push/merge to ensure clean, consistent code.
+## Collaboration
 
-Check the **Actions** tab for full logs and workflow runs.
+- A classmate was added as a collaborator
+- A pull request was created from the dev branch
+- The classmate reviewed and approved the changes
+- The pull request was merged into main and successfully linted
 
-_This assignment showcases basic CI/CD principles, peer teamwork, and code linting best practices._
+## CI Status
+
+Super-Linter runs on every push or merge to ensure clean and consistent code.  
+Check the Actions tab in the repository for logs and workflow results.
+
+---
+
+This assignment demonstrates basic continuous integration, peer collaboration, and code linting best practices.
